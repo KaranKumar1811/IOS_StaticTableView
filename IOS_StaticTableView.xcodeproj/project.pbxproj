@@ -13,6 +13,7 @@
 		5575E03A2372366C00F79500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575E0382372366C00F79500 /* Main.storyboard */; };
 		5575E03C2372366D00F79500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5575E03B2372366D00F79500 /* Assets.xcassets */; };
 		5575E03F2372366D00F79500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5575E03D2372366D00F79500 /* LaunchScreen.storyboard */; };
+		5575E047237236B300F79500 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575E046237236B300F79500 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5575E03B2372366D00F79500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5575E03E2372366D00F79500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5575E0402372366D00F79500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5575E046237236B300F79500 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5575E03B2372366D00F79500 /* Assets.xcassets */,
 				5575E03D2372366D00F79500 /* LaunchScreen.storyboard */,
 				5575E0402372366D00F79500 /* Info.plist */,
+				5575E046237236B300F79500 /* MenuTableViewController.swift */,
 			);
 			path = IOS_StaticTableView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5575E047237236B300F79500 /* MenuTableViewController.swift in Sources */,
 				5575E0372372366C00F79500 /* ViewController.swift in Sources */,
 				5575E0332372366C00F79500 /* AppDelegate.swift in Sources */,
 				5575E0352372366C00F79500 /* SceneDelegate.swift in Sources */,
